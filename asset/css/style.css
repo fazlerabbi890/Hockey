@@ -1,4 +1,23 @@
- @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
-.font-manrope{
-    font-family: 'Manrope', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
+.font-manrope {
+  font-family: "Manrope", sans-serif;
+}
+/* programme section (card) */
+.fst-box {
+  background: url(../Images/2.png) rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.scnd-box {
+  background: url(../Images/3.png) rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.third-box {
+  background: url(../Images/4.png) rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
