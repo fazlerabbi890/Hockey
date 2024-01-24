@@ -36,7 +36,7 @@
 <body class="font-manrope">
     <section class="md:container md:mx-auto">
         <header>
-            <nav>
+            <nav class="lg:w-full w-auto">
                 <div class="navbar bg-base-100">
                     <div class="navbar-start">
                         <div class="dropdown">
@@ -76,28 +76,43 @@
                 </div>
             </nav>
             <!-- slider -->
-            <div class="carousel w-full mt-14">
-                <div id="slide1" class="carousel-item relative w-full">
-                    <img src="./asset/Images/1.png" class="w-full" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide2" class="btn btn-circle">❮</a>
-                        <a href="#slide2" class="btn btn-circle">❯</a>
-                    </div>
-                </div>
-                <div id="slide2" class="carousel-item  relative w-full">
-                    <img class="rounded-2xl" src="./asset/Images/4.png" class="w-full" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide1" class="btn btn-circle">❮</a>
-                        <a href="#slide1" class="btn btn-circle">❯</a>
-                    </div>
-                </div>
+            <div class="lg:h-[690px] h-[500px] relative">
+                <div class="carousel w-full mt-14">
 
+                    <div id="slide1" class="carousel-item relative w-full">
+
+                        <img src="./asset/Images/1.png" class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide2" class="btn btn-circle">❮</a>
+                            <a href="#slide2" class="btn btn-circle">❯</a>
+
+                        </div>
+                    </div>
+
+                    <div id="slide2" class="carousel-item  relative w-full">
+                        <img class="rounded-2xl" src="./asset/Images/4.png" class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide1" class="btn btn-circle">❮</a>
+                            <a href="#slide1" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- card -->
+                <div class="absolute  w-auto  h-52 lg:w-[400px] p-10 bg-black lg:ml-[65%] lg:-mt-56 mt-5">
+                    <h1 class="text-[#fff]">Meet all the heroes from the field</h1>
+                    <p class="text-[#FFFFFF99] mt-5 text-base font-medium	">Experience the heart-pounding
+                        action
+                        of
+                        hockey as skilled
+                        players glide across the ice, delivering powerful shots and strategic plays.</p>
+                </div>
             </div>
         </header>
         <main>
             <!-- professional hockeys club -->
             <section>
-                <div class=" h-60 lg:h-40 border-y-2 border-dashed mt-7 lg:mt-20 mb-16">
+                <div class=" h-60 lg:h-40 border-y-2 border-dashed  lg:mt-20 mb-16 mt-[50px]">
                     <h1 class="text-center mt-4 lg:mt-8 text-4xl font-extrabold	">Professional Hockeys Club</h1>
                     <p class="text-center text-[#13131899] text-base mt-6	font-medium	 ">Thrilling hockey matchups,
                         fierce
@@ -1245,21 +1260,25 @@
     </section>
 
     <footer class="footer p-10 bg-[#131318] text-base-content mt-5">
-        <aside class="lg:w-56 ">
-            <h1 class="text-[#FFF] text-3xl font-extrabold	text-center">Get In Touch</h1>
-            <p class="text-[#FFFFFF99]">Fast-paced, skillful, competitive: hockey fuels passion, teamwork, and
-                exhilaration on ice.</p>
 
-            <div class="flex gap-5">
-                <i class="fa-regular fa-envelope mt-1 text-[red]"></i>
-                <p class="font-medium text-base text-[#FFFFFFCC]">hockeys@support.com</p>
-            </div>
+        <div class="flex justify-center lg:block">
+            <aside class="lg:w-56 w-auto ">
+                <h1 class="text-[#FFF] text-3xl lg:-ml-10 font-extrabold	text-center">Get In Touch</h1>
+                <p class="text-[#FFFFFF99] mb-3 mt-2">Fast-paced, skillful, competitive: hockey fuels passion, teamwork,
+                    and
+                    exhilaration on ice.</p>
 
-            <div class="flex gap-5">
-                <i class="fa-solid fa-phone text-[red] mt-1"></i>
-                <p class="font-medium text-base text-[#FFFFFFCC]">(+62) 123-321-543</p>
-            </div>
-        </aside>
+                <div class="flex gap-5">
+                    <i class="fa-regular fa-envelope mt-1 text-[red]"></i>
+                    <p class="font-medium text-base text-[#FFFFFFCC]">hockeys@support.com</p>
+                </div>
+
+                <div class="flex gap-5">
+                    <i class="fa-solid fa-phone text-[red] mt-1"></i>
+                    <p class="font-medium text-base text-[#FFFFFFCC]">(+62) 123-321-543</p>
+                </div>
+            </aside>
+        </div>
 
 
 
@@ -1284,7 +1303,7 @@
 
 
 
-        <div class="text-center">
+        <div class="lg:ml-0 ml-10">
             <header class="footer-title font-bold text-lg text-[#fff]">Services</header>
             <a class="link link-hover text-base	font-medium	 text-[#FFFFFF99]">Academy</a>
             <a class="link link-hover text-base	font-medium	 text-[#FFFFFF99]">Group Lesson</a>
@@ -1292,6 +1311,10 @@
             <a class="link link-hover text-base	font-medium	 text-[#FFFFFF99]">Hockeys for kids</a>
             <a class="link link-hover text-base	font-medium	 text-[#FFFFFF99]">Hockeys for Adult</a>
         </div>
+
+
+
+
     </footer>
 </body>
 
